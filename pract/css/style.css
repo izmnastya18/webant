@@ -1,0 +1,98 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;900&display=swap');
+body{
+    font-family: "M PLUS 1p";
+}
+a{
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 72px;
+  }
+  .menu {
+    flex-grow: 1;
+  }
+  .menu ul {
+    font-weight: 800;
+    font-size: 14.4px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+    list-style: none;
+  }
+  .menu li {
+    margin-right: 20px;
+  }
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  .menu a {
+    padding: 8px 10px;
+    color:#30124E;
+
+  }
+  .logo{
+      margin-top: -22px;
+    display:block;}
+  .logo a{
+    font-family: "M PLUS 1p";
+    margin-right: 128px;
+    color:#30124E;
+    margin-left: 147px;
+    font-weight: 900;
+    font-size: 30px;
+    
+
+}
+.menu li img{
+margin-left:98px !important;
+margin-right:-18px!important;
+}
+.burger{
+    display:flex;
+    width: 37px;
+    height: 26px;
+    margin-right: 147px;
+    line-height: 178.2%;
+    flex
+}
+
+.foto{
+    display: flex;
+    margin-top: auto;
+}
+
+.our{
+    position: absolute;
+    width: 470px;
+    height: 810px;
+    left: 146px;
+    top: 212px;
+    font-family: Mplus 1p;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 80px;
+    color: #F61067;
+}
+.we{position: absolute;
+    width: 363px;
+    height: 54px;
+    left: 10px;
+    top:116px;
+    font-family: Mplus 1p;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #F4F4ED;}
