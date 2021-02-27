@@ -4,6 +4,7 @@
 body{
     font-family: "M PLUS 1p";
     width: 100%;
+    margin:0;
 }
 a{
     text-decoration: none;
@@ -98,13 +99,17 @@ header {
 .main__photo{
     display: flex;
     margin-top: auto;
+    justify-content: flex-start;
+
+    background: url(../img/Photo.jpg) no-repeat;
+    background-size: 100%;
 }
 .main__photo_headline-our{
-    position: absolute;
+    /* position: absolute; */
     width: 470px;
     height: 810px;
     left: 146px;
-    top: 212px;
+    margin-left: 100rem;;
     font-family: Mplus 1p;
     font-style: normal;
     font-weight: 900;
@@ -113,7 +118,7 @@ header {
     color: #F61067;
 }
 .main_photo_headline-we{
-    position: absolute;
+    /* position: absolute; */
     width: 363px;
     height: 54px;
     left: 10px;
@@ -129,7 +134,6 @@ header {
 
 
 .main__intro span{
-    position: absolute;
     width: 149px;
     height: 24px;
     left: 645px;
@@ -145,7 +149,6 @@ header {
     color: #F61067;
 }
 h2{
-    position: absolute;
     width: 206px;
     height: 67px;
     left: 616px;
@@ -160,10 +163,12 @@ h2{
 }
 .main__intro{
     display: flex;
-    margin-top: 700px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .main__intro p{
-    position:absolute;
     width: 558px;
     height: 111px;
     left: 441px;
@@ -182,7 +187,7 @@ h2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 1440px;
+    margin-top: 10rem;
     height: 1080px;
 }
 .team{
