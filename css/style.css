@@ -12,11 +12,12 @@ a{
 
 header {
     display: flex;
-    flex-flow: row nowrap;
+    margin: auto;
     justify-content: space-around;
     align-items: center;
     margin-top: 72px;
-  }
+    max-width: 1200px;
+    }
   .header__menu {
     flex-grow: 1;
   }
@@ -41,13 +42,13 @@ header {
     color:#30124E;
 
   }
-  .header__logo{
-      margin-top: -22px;
-    display:block;}
+  .header__logo {
+    margin-top: -22px;
+    display: block;
+    }
   .header__logo a{
     font-family: "M PLUS 1p";
     color:#30124E;
-    margin-left: 10rem;
     font-weight: 900;
     font-size: 30px;
     margin-right: 147px;
@@ -60,7 +61,7 @@ header {
 } */
 
 .header__menu-burger span, .menu-burger__header:after, .menu-burger__header:before{
-    position: absolute;
+    display: block;
     width: 27px;
     height: 16px;
     left: 1293px;
@@ -68,27 +69,25 @@ header {
     background: #30124E;
     
 }
-.header__menu-burger span{
-    position: absolute;
+.header__menu-burger span {
     width: 27px;
     height: 2px;
-    left: 1293px;
+    display: block;
     top: 98px;
     background: #30233D;
-}
+    margin-bottom: 5px;
+    }
 .header__menu-burger:after, .menu-burger__header:before{
     content: ' ';
 }
-.header__menu-burger:after{
-    position: absolute;
+.header__menu-burger:after {
     width: 27px;
     height: 2px;
-    left: 1293px;
-    top: 91px;
     background: #30233D;
-}
+    display: block;
+    }
 .header__menu-burger:before{
-    position: absolute;
+    display: block;
     width: 17px;
     height: 2px;
     left: 12932px;
@@ -96,7 +95,7 @@ header {
     background: #30233D;
 }
 
-.main__photo{
+.main__photo {
     display: flex;
     margin-top: auto;
     justify-content: flex-start;
@@ -112,8 +111,10 @@ header {
     line-height: 80px;
     color: #F61067;
     display: flex;
-    margin-left: 5em;
+    /* margin-left: 5em; */
     flex-direction: column;
+    width: 1200px;
+    margin: auto;
 }
 .main_photo_headline-we{
     width: 363px;
